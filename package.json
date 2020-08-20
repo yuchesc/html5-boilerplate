@@ -1,0 +1,29 @@
+{
+  "name": "html5-boilerplate",
+  "version": "1.0.0",
+  "description": "html5-boilerplate",
+  "main": "gulpfile.js",
+  "devDependencies": {
+    "browser-sync": "^2.26.12",
+    "del": "^5.1.0",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-ejs": "^5.1.0",
+    "gulp-eslint": "^6.0.0",
+    "gulp-minify-html": "^1.0.6",
+    "gulp-stylus": "^2.7.0",
+    "gulp-uglify": "^3.0.2",
+    "pump": "^3.0.0",
+    "uglify-es": "^3.3.9"
+  },
+  "scripts": {
+    "clean": "gulp clean",
+    "build": "gulp",
+    "watch-debug": "gulp watch"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "luxon": "^1.24.1",
+    "vue": "^2.6.11"
+  }
+}
