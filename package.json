@@ -19,7 +19,7 @@
   "scripts": {
     "clean": "gulp clean",
     "build": "gulp",
-    "watch-debug": "gulp watch"
+    "watch": "gulp watch"
   },
   "dependencies": {
     "axios": "^0.19.2",
